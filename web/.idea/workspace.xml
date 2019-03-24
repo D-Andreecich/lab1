@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db1da4e9-33fb-4d8c-8030-8b46ee7e3445" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/storekeeper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab8.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.lab9 .odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab9 .odt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9 .odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/action.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,29 +25,32 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="9" />
+          <entry key="php" value="11" />
+          <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="9" />
+          <entry key="PHP" value="11" />
+          <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="php" value="5279" />
+          <entry key="php" value="8856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5277" />
+          <entry key="PHP" value="8854" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="2" />
         </counts>
@@ -65,37 +60,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/Foo.php">
+        <entry file="file://$PROJECT_DIR$/public/connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="1" selection-end-line="11" />
+            <state relative-caret-position="143">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/connect.php">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="65">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/helpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2002">
+              <caret line="154" column="50" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="898">
+              <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="65" column="45" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="832">
+              <caret line="64" column="18" selection-start-line="56" selection-start-column="15" selection-end-line="64" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/storekeeper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="1196">
+              <caret line="97" column="11" selection-start-line="75" selection-start-column="4" selection-end-line="97" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -151,6 +155,10 @@
       <find>supplied_products</find>
       <find>save_product</find>
       <find>save_products</find>
+      <find>Contracts</find>
+      <find>$table</find>
+      <find>entry</find>
+      <find>mysqli_query</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,12 +173,14 @@
         <option value="$PROJECT_DIR$/app/src/lab9/connect.php" />
         <option value="$PROJECT_DIR$/app/src/lab9/logout.php" />
         <option value="$PROJECT_DIR$/app/src/lab9/login.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/connect.php" />
         <option value="$PROJECT_DIR$/public/login.php" />
         <option value="$PROJECT_DIR$/public/manager.php" />
-        <option value="$PROJECT_DIR$/public/action.php" />
         <option value="$PROJECT_DIR$/public/storekeeper.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/helpers.php" />
+        <option value="$PROJECT_DIR$/public/action.php" />
+        <option value="$PROJECT_DIR$/public/admin.php" />
       </list>
     </option>
   </component>
@@ -276,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,26 +309,25 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/d-andreevich/projects/docker-nginx-php-mysql/web/public/manager.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552597045120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553429365173" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/src/lab9" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,18 +353,20 @@
       <option name="presentableId" value="Default" />
       <updated>1551634227396</updated>
       <workItem from="1551634228637" duration="16997000" />
-      <workItem from="1552587715802" duration="9230000" />
+      <workItem from="1552587715802" duration="38477000" />
+      <workItem from="1553264621504" duration="1897000" />
+      <workItem from="1553419845513" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26227000" />
+    <option name="totallyTimeSpent" value="57970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25261998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25813568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +383,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,10 +411,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="143">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="154" column="50" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="64" column="18" selection-start-line="56" selection-start-column="15" selection-end-line="64" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storekeeper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="97" column="11" selection-start-line="75" selection-start-column="4" selection-end-line="97" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -420,31 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storekeeper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/action.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="898">
+          <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
         </state>
       </provider>
     </entry>

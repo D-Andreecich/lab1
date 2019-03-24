@@ -3,6 +3,7 @@ session_start();
 
 
 require_once 'connect.php';
+require_once 'helpers.php';
 
 $conn = NULL;
 
@@ -30,6 +31,9 @@ if (isset($_SESSION["user"])) {
         }
         if ($_SESSION['user'] == "storekeeper") {
             include 'storekeeper.php';
+        }
+        if ($_SESSION['user'] == "admin") {
+            include 'admin.php';
         }
         ?>
     </p>
