@@ -15,6 +15,7 @@ $conn = NULL;
     <body>
     <ol>
         <li><a href="lab1.php">open lab1</a></li>
+        <li><a href="lab2.php">open lab2</a></li>
     </ol>
     
     </body>
