@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.item-1{
+    flex-grow: 1;
+}
+
+.item-2{
+    flex-grow: 2;
+}
