@@ -18,6 +18,7 @@ $conn = NULL;
         <li><a href="lab2.php">open lab2</a></li>
         <li><a href="lab3.php">open lab3</a></li>
         <li><a href="lab4.php">open lab4</a></li>
+        <li><a href="lab5.php">open lab5</a></li>
     </ol>
     
     </body>
