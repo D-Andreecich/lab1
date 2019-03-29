@@ -4,17 +4,15 @@
  * User: d-andreevich
  * Date: 03.03.19
  * Time: 19:32
+ * @param string $dbName
+ * @param string $user
+ * @param string $pass
+ * @return mysqli
  */
-
-
-function db_conn()
+function db_conn(string $dbName = "supply", string $user = "root", string $pass = "root")
 {
     $server = "mysql";
-    $db = "supply";
-    $user = $_SESSION["user"];
-    $pass = $_SESSION["pass"];
-
-    $conn = mysqli_connect($server, $user, $pass, $db);
+    $conn = mysqli_connect($server, $user, $pass, $dbName);
 
 
     if (!$conn) {
