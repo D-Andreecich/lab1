@@ -4,6 +4,9 @@
  * User: d-andreevich
  * Date: 03.03.19
  * Time: 19:32
+ */
+ 
+/** 
  * @param string $dbName
  * @param string $user
  * @param string $pass

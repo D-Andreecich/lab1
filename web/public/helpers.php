@@ -42,6 +42,7 @@ function enumTypeDbForPhp(array $db_field): array
         'tinyint' => [
             'type' => 'checkbox',
             'onclick' => "this.value = +this.checked",
+            'checked' => null,
         ],
     ];
     $length = strpos($db_field['Type'], '(');
@@ -49,6 +50,10 @@ function enumTypeDbForPhp(array $db_field): array
     $result = $enum[$type];
     $result['name'] = $db_field['Field'];
     $result['value'] = $result['value'] ?? $db_field['Value'];
+    
+    if (!$result['value']) {
+        unset($result['checked']);
+    }
 
     if ($db_field['Default'] === null || $db_field['Null'] === 'YES') {
         $result['required'] = true;

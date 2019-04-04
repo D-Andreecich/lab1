@@ -64,7 +64,7 @@ function querySql(string $sql, $conn, bool $sort = false)
     if (isset($_GET['where']) && isset($_GET['where_column'])) {
         $sql .= " where {$_GET['where_column']} = '{$_GET['where']}'";
     }
-    
+
     if ($sort) {
         if (isset($_GET['sort']) && isset($_GET['direction'])) {
             $sql .= " order by {$_GET['sort']} {$_GET['direction']}";
@@ -75,12 +75,12 @@ function querySql(string $sql, $conn, bool $sort = false)
 
     if (!mysqli_errno($conn)) {
         if (!$sort)
-            echo "Status: Successful!";
+            echo "Status: <b>Successful</b>!" . "<br/><br/>";
         return $result;
     } else {
         echo 'Status: Error!' . '<br/>';
         echo 'SQL : (' . $sql . ')' . '<br/>';
-        echo 'Error message: ' . mysqli_error($conn);
+        echo 'Error message: ' . mysqli_error($conn) . "<br/><br/>";
     }
 }
 

@@ -1,10 +1,5 @@
 <?php
 
-//require_once 'connect.php';
-
-$conn = NULL;
-
-
 ?>
     <!DOCTYPE html>
     <html>
@@ -20,9 +15,9 @@ $conn = NULL;
         <li><a href="lab4.php">open lab4</a></li>
         <li><a href="lab5.php">open lab5</a></li>
         <li><a href="lab6.php">open lab6</a></li>
+        <li><a href="lab7.php">open lab7</a></li>
     </ol>
 
     </body>
     </html>
 <?php
-//mysqli_close($conn);
